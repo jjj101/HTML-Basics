@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	body {background-color: floralwhite;}
+		<title>Customer Information</title>
+		h1 {color: blue;}
+	</style>
+	</head>
+	
+	<body>
+	<h1 style="color:blue;">Customer Information</h1>
+		<form>
+			  <label for="fname">First name:</label><br>
+			  <input type="text" id="fname" name="fname"><br><br>
+			  <label for="lname">Last name:</label><br>
+			  <input type="text" id="lname" name="lname"><br><br>
+			   <label for="email">Email Address:</label><br>
+			  <input type="text" id="email" name="email"><br><br><br>
+			  <input type="submit" value="Submit">
+		</form> 
+	</body>	
+</html>
